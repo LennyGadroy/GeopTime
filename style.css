@@ -2262,6 +2262,7 @@ a {
   font-weight: 500;
   line-height: 140%;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .text-block-6:hover {
@@ -2457,6 +2458,7 @@ a {
 
 .container-6 {
   max-width: var(--container-lg);
+  margin-top: 5rem;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -2570,7 +2572,7 @@ a {
   grid-column-gap: 24px;
   grid-row-gap: 24px;
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   margin-top: 80px;
 }
 
@@ -2579,6 +2581,10 @@ a {
   grid-row-gap: 24px;
   flex-flow: column;
   display: flex;
+}
+
+.profile-card>img {
+  border-radius: 16px;
 }
 
 .creative-block-title {
@@ -4556,19 +4562,13 @@ a {
   color: var(--violet-100);
 }
 
-.nav-text.first {
+.nav-text {
   color: var(--black-60);
   font-size: var(--regular-medium);
   line-height: 120%;
   text-decoration: none;
-}
-
-.nav-text.second {
   pointer-events: none;
-  font-size: var(--regular-medium);
   line-height: 120%;
-  position: absolute;
-  top: 100%;
 }
 
 .div-block-212 {
