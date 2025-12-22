@@ -3235,7 +3235,6 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  max-width: 1032px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -3257,7 +3256,6 @@ a {
 
 .c2a-main {
   border: 1px solid var(--black-10);
-  background-image: url("https://cdn.prod.website-files.com/67a5fb8bc33c7f25ab4e52d9/67af2ab50d643ebcedc48df6_bg-c2a.png");
   background-position: 100% 100%;
   background-repeat: repeat-x;
   background-size: auto;
