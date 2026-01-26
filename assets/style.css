@@ -2650,7 +2650,6 @@ a {
   max-width: var(--container-lg);
   padding-left: 20px;
   padding-right: 20px;
-  overflow: hidden;
 }
 
 .section-6 {
@@ -2734,13 +2733,14 @@ a {
 }
 
 .about-card-2 {
-  background-color: var(--yellow-100);
+  background-color: var(--Primary);
   border-radius: 16px;
   flex-flow: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 32px;
   display: flex;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .text-block-18 {
@@ -2781,12 +2781,13 @@ a {
 .about-card-3 {
   grid-column-gap: 24px;
   grid-row-gap: 24px;
-  background-color: var(--black-100);
+  background-color: var(--Secondary);
   border-radius: 16px;
   flex-flow: column;
   align-items: flex-start;
   padding: 32px;
   display: flex;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .text-block-19 {
@@ -2821,6 +2822,7 @@ a {
   min-height: 500px;
   padding: 32px;
   display: flex;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .text-block-20 {
@@ -3225,6 +3227,7 @@ a {
   padding: 40px;
   text-decoration: none;
   display: flex;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .text-block-31 {
@@ -3280,6 +3283,7 @@ a {
 
 .c2a-main {
   border: 1px solid var(--black-10);
+  background-color: var(--PrimaryBG);
   background-position: 100% 100%;
   background-repeat: repeat-x;
   background-size: auto;
