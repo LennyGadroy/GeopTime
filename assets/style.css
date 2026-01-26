@@ -1,3 +1,27 @@
+:root {
+    /* Main Colors */
+    --Primary: #2EB69A;
+    --PrimaryRGB: 46, 182, 154;
+    --PrimaryBG: rgba(var(--PrimaryRGB), 0.25);
+
+    --Secondary: #153352;
+    --SecondaryRGB: 21, 51, 82;
+    --SecondaryBG: rgba(var(--SecondaryRGB), 0.25);
+
+    --Blue: #002599;
+    --BlueRGB: 0, 37, 153;
+    --BlueBG: rgba(var(--BlueRGB), 0.25);
+
+    --Black: #000000;
+    --BlackRGB: 0, 0, 0;
+    --BlackBG: rgba(var(--BlackRGB), 0.25);
+
+    --White: #ffffff;
+    --WhiteRGB: 255, 255, 255;
+    --WhiteBG: rgba(var(--WhiteRGB), 0.25);
+
+}
+
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -2346,7 +2370,7 @@ a {
 }
 
 .call-to-action {
-  background-color: var(--black-100);
+  background-color: var(--Secondary);
   border-radius: 24px;
   margin-top: 48px;
   padding: 32px 48px;
@@ -2407,7 +2431,7 @@ a {
 }
 
 .div-block-21 {
-  background-color: var(--black-100);
+  background-color: var(--Secondary);
   border-radius: 40px;
   justify-content: center;
   align-items: center;
@@ -2428,7 +2452,7 @@ a {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   border: 1px solid var(--white-100);
-  background-color: var(--black-100);
+  background-color: var(--Secondary);
   color: var(--white-100);
   font-size: var(--regular-medium);
   line-height: var(--regular-medium);
@@ -3345,14 +3369,14 @@ a {
 
 .innovation-item {
   grid-column-gap: 32px;
-  grid-row-gap: 32px;
-  background-color: #31333033;
+  grid-row-gap: 32px;;
   border-radius: 16px;
   flex-flow: column;
   justify-content: space-between;
   align-items: stretch;
   padding: 32px;
   display: flex;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .heading-25 {
@@ -3662,12 +3686,13 @@ a {
   grid-column-gap: 12px;
   grid-row-gap: 12px;
   cursor: pointer;
-  background-color: #ba81ee33;
+  background-color: var(--PrimaryBG);
   border-radius: 999px;
   justify-content: center;
   align-items: center;
   padding: 4px 24px;
   display: inline-flex;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .creativity-img {
@@ -3676,18 +3701,7 @@ a {
 
 .creativity-txt {
   font-family: var(--instrument);
-  color: #ba81ee;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  font-size: 48px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 120%;
-}
-
-.innovation-txt {
-  font-family: var(--instrument);
-  color: #70b5ff;
+  color: var(--Primary);
   letter-spacing: -1px;
   margin-bottom: 0;
   font-size: 48px;
@@ -3699,12 +3713,24 @@ a {
 .innovation-bedge {
   grid-column-gap: 12px;
   grid-row-gap: 12px;
-  background-color: #70b5ff33;
+  background-color: var(--BlackBG);
   border-radius: 999px;
   justify-content: center;
   align-items: center;
   padding: 4px 24px;
   display: inline-flex;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.innovation-txt {
+  font-family: var(--instrument);
+  color: var(--Black);
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 120%;
 }
 
 .bedges-wrapper {
@@ -3719,15 +3745,16 @@ a {
 .strategy-bedge {
   grid-column-gap: 12px;
   grid-row-gap: 12px;
-  background-color: #ffaf6833;
+  background-color: var(--BlueBG);
   border-radius: 999px;
   padding: 4px 24px;
   display: flex;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .strategy-txt {
   font-family: var(--instrument);
-  color: #ffaf68;
+  color: var(--Blue);
   letter-spacing: normal;
   margin-bottom: 0;
   font-size: 48px;
@@ -4610,7 +4637,7 @@ a {
 
 @media screen and (min-width: 1440px) {
   .hero-heading-h1 {
-    font-size: 130px;
+    font-size: 80px;
   }
 
   .container-main {
