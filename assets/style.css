@@ -2180,8 +2180,8 @@ a {
 
 .button {
   height: var(--large-button-size);
-  border: 1px solid var(--violet-100);
-  background-color: var(--violet-100);
+  border: 1px solid var(--Secondary);
+  background-color: var(--Secondary);
   border-radius: 33px;
   justify-content: space-between;
   align-items: center;
@@ -2194,7 +2194,8 @@ a {
 }
 
 .button:hover {
-  border: 1px solid var(--violet-100);
+  border: 1px solid var(--Primary);
+  background-color: var(--Primary);
 }
 
 .section {
@@ -2249,6 +2250,7 @@ a {
   grid-row-gap: 10px;
   border: 1px solid var(--black-100);
   background-color: var(--black-100);
+  color: var(--White);
   font-size: var(--regular-medium);
   line-height: var(--medium-button-size);
   text-align: center;
@@ -2265,8 +2267,13 @@ a {
   display: flex;
 }
 
+.c2a-button:hover {
+  border: 1px solid var(--Black);
+  background-color: var(--White);
+  color: var(--Black);
+}
+
 .text-block-5 {
-  color: var(--white-100);
   text-decoration: none;
 }
 
@@ -2406,8 +2413,8 @@ a {
   height: var(--medium-button-size);
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  border: 1px solid var(--white-100);
-  background-color: var(--white-100);
+  border: 1px solid var(--White);
+  background-color: var(--White);
   color: var(--black-100);
   font-size: var(--regular-medium);
   line-height: var(--regular-medium);
@@ -2423,7 +2430,9 @@ a {
 }
 
 .let-s-collaborate:hover {
-  border: 1px solid var(--white-100);
+  color: var(--White);
+  border: 1px solid var(--White);
+  background-color: var(--Secondary);
 }
 
 .text-block-13 {
@@ -2465,6 +2474,12 @@ a {
   display: flex;
 }
 
+.back-to-home-btn:hover {
+  color: var(--black-100);
+  border: 1px solid var(--black-100);
+  background-color: var(--white-100);
+}
+
 .div-block-23 {
   background-color: var(--white-100);
   border-radius: 40px;
@@ -2498,7 +2513,6 @@ a {
 .our-work-heading {
   color: var(--black-100);
   text-align: center;
-  max-width: 768px;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 48px;
@@ -3289,6 +3303,7 @@ a {
   background-size: auto;
   border-radius: 24px;
   padding: 120px 60px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .footer {
@@ -3680,7 +3695,7 @@ a {
   color: var(--black-100);
   text-align: center;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   font-size: 48px;
   font-weight: 500;
   line-height: 120%;
@@ -5635,3 +5650,4 @@ a {
     grid-column: span 1 / span 1;
   }
 }
+
