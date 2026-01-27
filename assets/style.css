@@ -2312,6 +2312,47 @@ a {
   display: flex;
 }
 
+.home-map-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.home-map-bg svg {
+    display: block;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(0.5px);
+}
+
+.home-map-bg circle {
+    border: 1px solid white;
+    animation: pulsePoint 2s infinite ease-in-out;
+}
+
+@keyframes pulsePoint {
+    0%, 100% { transform: scale(1); opacity: 0.8; }
+    50% { transform: scale(1.2); opacity: 1; }
+}
+
+.container-main {
+    position: relative;
+    z-index: 2;
+}
+
+.section#home {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
 .home-logo-section {
   padding-top: 80px;
   padding-bottom: 0;
