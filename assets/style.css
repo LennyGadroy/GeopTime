@@ -5657,3 +5657,11 @@ a {
   }
 }
 
+.button.w-inline-block {
+  background-color: var(--Primary);
+  border-color: var(--Primary);
+}
+.button.w-inline-block:hover {
+  background-color: var(--Secondary);
+  border-color: var(--Secondary);
+}
