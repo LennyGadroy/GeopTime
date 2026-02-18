@@ -1,31 +1,91 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retour d'expérience : Transports Dupont - Blog GeopTime</title>
-    <link href="assets/style.css" rel="stylesheet" type="text/css"/>
-    <link href="https://fonts.googleapis.com" rel="preconnect"/>
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/>
+    <link href="assets/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
     <script type="text/javascript">
-        WebFont.load({ google: { families: ["Inter Tight:regular,500,600,700,800,900,italic", "Instrument Serif:regular,italic"] } });
+        WebFont.load({
+            google: {
+                families: ["Inter Tight:regular,500,600,700,800,900,italic", "Instrument Serif:regular,italic"]
+            }
+        });
     </script>
     <link rel="icon" type="image/svg" href="assets/icon.svg">
     <style>
-        .article-content p { font-size: 18px; line-height: 1.6; margin-bottom: 24px; color: #333; }
-        .article-content h2 { font-size: 32px; margin-top: 48px; margin-bottom: 24px; font-weight: 600; color: var(--Secondary); }
-        .article-content h3 { font-size: 24px; margin-top: 32px; margin-bottom: 16px; font-weight: 500; }
-        .article-content ul { margin-bottom: 32px; padding-left: 20px; }
-        .article-content li { margin-bottom: 12px; font-size: 18px; }
-        .article-content blockquote { border-left: 4px solid var(--Primary); padding-left: 24px; font-style: italic; font-size: 20px; color: var(--Secondary); margin: 40px 0; background: transparent; }
-        .scroll-indicator { position: fixed; top: 0; left: 0; height: 4px; background: var(--Primary); z-index: 9999; width: 0%; transition: width 0.1s; }
-        
+        .article-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 24px;
+            color: #333;
+        }
+
+        .article-content h2 {
+            font-size: 32px;
+            margin-top: 48px;
+            margin-bottom: 24px;
+            font-weight: 600;
+            color: var(--Secondary);
+        }
+
+        .article-content h3 {
+            font-size: 24px;
+            margin-top: 32px;
+            margin-bottom: 16px;
+            font-weight: 500;
+        }
+
+        .article-content ul {
+            margin-bottom: 32px;
+            padding-left: 20px;
+        }
+
+        .article-content li {
+            margin-bottom: 12px;
+            font-size: 18px;
+        }
+
+        .article-content blockquote {
+            border-left: 4px solid var(--Primary);
+            padding-left: 24px;
+            font-style: italic;
+            font-size: 20px;
+            color: var(--Secondary);
+            margin: 40px 0;
+            background: transparent;
+        }
+
+        .scroll-indicator {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 4px;
+            background: var(--Primary);
+            z-index: 9999;
+            width: 0%;
+            transition: width 0.1s;
+        }
+
         @media screen and (min-width: 991px) {
-            .article-grid { display: grid; grid-template-columns: 250px 1fr; gap: 60px; align-items: start; }
-            .sidebar-sticky { position: sticky; top: 120px; }
+            .article-grid {
+                display: grid;
+                grid-template-columns: 250px 1fr;
+                gap: 60px;
+                align-items: start;
+            }
+
+            .sidebar-sticky {
+                position: sticky;
+                top: 120px;
+            }
         }
     </style>
-</head>     
+</head>
+
 <body class="body">
     <div class="scroll-indicator" id="progressBar"></div>
 
@@ -36,16 +96,17 @@
                     <div class="navbar-wrapper-3">
                         <div class="div-block-2">
                             <a href="index.html" class="navbar-brand-2 w-nav-brand">
-                                <img loading="lazy" src="assets/logo_h.svg" width="200px" height="auto" alt="GeopTime" style="margin-left: 10px;"/>
+                                <img loading="lazy" src="assets/logo_h.svg" width="200px" height="auto" alt="GeopTime"
+                                    style="margin-left: 10px;" />
                             </a>
                         </div>
                         <ul role="list" class="nav-menu-two-2 w-list-unstyled">
                             <li class="list-item-14">
                                 <a href="index.html" class="nav-link-4">Accueil</a>
-                                <a href="about.html" class="nav-link-4">A propos</a>
                                 <a href="services.html" class="nav-link-4">Services</a>
-                                <a href="blog.html" class="nav-link-4 w--current" style="color: var(--Primary);">Blog</a>
-                                <a href="contact.html" class="nav-link-4">Contact</a>
+                                <a href="blog.html" class="nav-link-4">Blog</a>
+                                <a href="about.html" class="nav-link-4">A propos</a>
+                                <a href="contact.html" class="nav-link-4">Contactez-nous</a>
                             </li>
                         </ul>
                         <div class="div-block-50">
@@ -59,25 +120,35 @@
         </div>
 
         <section class="section" style="padding-bottom: 40px;">
-            <div class="w-layout-blockcontainer container-main w-container" style="text-align: left; align-items: flex-start; max-width: 800px;">
-                
-                <a href="blog.html" style="text-decoration: none; color: var(--black-60); font-weight: 500; margin-bottom: 24px; display: inline-block;">← Retour au blog</a>
-                
+            <div class="w-layout-blockcontainer container-main w-container"
+                style="text-align: left; align-items: flex-start; max-width: 800px;">
+
+                <a href="blog.html"
+                    style="text-decoration: none; color: var(--black-60); font-weight: 500; margin-bottom: 24px; display: inline-block;">←
+                    Retour au blog</a>
+
                 <div style="display: flex; gap: 12px; margin-bottom: 16px;">
-                    <div class="link-block-2" style="background: var(--PrimaryBG); border: none; font-size: 14px; padding: 6px 16px;">Cas Client</div>
+                    <div class="link-block-2"
+                        style="background: var(--PrimaryBG); border: none; font-size: 14px; padding: 6px 16px;">Cas
+                        Client</div>
                     <div style="align-self: center; color: var(--black-60); font-size: 14px;">4 min de lecture</div>
                 </div>
 
-                <h1 class="hero-heading-h1" style="font-size: 48px; text-align: left; margin-bottom: 24px; line-height: 1.1;">
+                <h1 class="hero-heading-h1"
+                    style="font-size: 48px; text-align: left; margin-bottom: 24px; line-height: 1.1;">
                     Comment Transports Dupont a absorbé <span class="italic-span">30% de croissance</span>
                 </h1>
 
-                <p class="para-txt" style="text-align: left; font-size: 20px; color: var(--black-60); margin-bottom: 32px; max-width: 100%;">
-                    Découvrez comment cette PME familiale a réussi à augmenter ses volumes de livraison sans embaucher de nouveaux chauffeurs, simplement en optimisant l'existant.
+                <p class="para-txt"
+                    style="text-align: left; font-size: 20px; color: var(--black-60); margin-bottom: 32px; max-width: 100%;">
+                    Découvrez comment cette PME familiale a réussi à augmenter ses volumes de livraison sans embaucher
+                    de nouveaux chauffeurs, simplement en optimisant l'existant.
                 </p>
 
-                <div style="display: flex; align-items: center; gap: 16px; border-top: 1px solid #eee; padding-top: 24px; width: 100%;">
-                    <img src="https://media.licdn.com/dms/image/v2/D4E03AQGhKrL7Euvndg/profile-displayphoto-crop_800_800/B4EZoHq_W.IIAI-/0/1761065301917?e=1764806400&v=beta&t=icU5Evci-pTQ24hAZL6kHq4iFW3IH0SyaAVlCKSe5Kk" style="width: 48px; height: 48px; border-radius: 50%; object-fit: cover;" alt="Auteur">
+                <div
+                    style="display: flex; align-items: center; gap: 16px; border-top: 1px solid #eee; padding-top: 24px; width: 100%;">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E03AQGhKrL7Euvndg/profile-displayphoto-crop_800_800/B4EZoHq_W.IIAI-/0/1761065301917?e=1764806400&v=beta&t=icU5Evci-pTQ24hAZL6kHq4iFW3IH0SyaAVlCKSe5Kk"
+                        style="width: 48px; height: 48px; border-radius: 50%; object-fit: cover;" alt="Auteur">
                     <div>
                         <div style="font-weight: 600; color: var(--Secondary);">Aurélien Fazilleau</div>
                         <div style="font-size: 14px; color: var(--black-60);">Publié le 20 Février 2026</div>
@@ -86,34 +157,52 @@
             </div>
         </section>
 
-        <div class="w-layout-blockcontainer w-container" style="max-width: 1000px; padding: 0 20px; margin-bottom: 60px;">
-            <img src="https://cdn.prod.website-files.com/67a5fb8bc33c7f25ab4e52d9/67adb22cde7bb305cec8b740_hotto.jpg" style="width: 100%; height: auto; border-radius: 24px; max-height: 500px; object-fit: cover;" alt="Transport">
+        <div class="w-layout-blockcontainer w-container"
+            style="max-width: 1000px; padding: 0 20px; margin-bottom: 60px;">
+            <img src="https://cdn.prod.website-files.com/67a5fb8bc33c7f25ab4e52d9/67adb22cde7bb305cec8b740_hotto.jpg"
+                style="width: 100%; height: auto; border-radius: 24px; max-height: 500px; object-fit: cover;"
+                alt="Transport">
         </div>
 
         <section style="padding-bottom: 100px;">
             <div class="w-layout-blockcontainer w-container" style="max-width: 1100px; padding: 0 20px;">
                 <div class="article-grid">
-                    
+
                     <div class="sidebar-sticky w-hidden-medium w-hidden-small w-hidden-tiny">
-                        <div style="font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: var(--black-60); margin-bottom: 16px; font-weight: 600;">Sommaire</div>
+                        <div
+                            style="font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: var(--black-60); margin-bottom: 16px; font-weight: 600;">
+                            Sommaire</div>
                         <ul style="list-style: none; padding: 0; border-left: 2px solid #eee;">
-                            <li style="margin-bottom: 12px; padding-left: 16px; border-left: 2px solid var(--Primary); margin-left: -2px;"><a href="#defi" style="text-decoration: none; color: var(--Secondary); font-weight: 500;">Le défi initial</a></li>
-                            <li style="margin-bottom: 12px; padding-left: 16px;"><a href="#solution" style="text-decoration: none; color: var(--black-60);">L'implémentation</a></li>
-                            <li style="margin-bottom: 12px; padding-left: 16px;"><a href="#resultats" style="text-decoration: none; color: var(--black-60);">Les résultats</a></li>
+                            <li
+                                style="margin-bottom: 12px; padding-left: 16px; border-left: 2px solid var(--Primary); margin-left: -2px;">
+                                <a href="#defi"
+                                    style="text-decoration: none; color: var(--Secondary); font-weight: 500;">Le défi
+                                    initial</a></li>
+                            <li style="margin-bottom: 12px; padding-left: 16px;"><a href="#solution"
+                                    style="text-decoration: none; color: var(--black-60);">L'implémentation</a></li>
+                            <li style="margin-bottom: 12px; padding-left: 16px;"><a href="#resultats"
+                                    style="text-decoration: none; color: var(--black-60);">Les résultats</a></li>
                         </ul>
                     </div>
 
                     <div class="article-content" style="max-width: 700px;">
-                        
-                        <p>Transports Dupont est une entreprise de livraison régionale basée en Loire-Atlantique. Avec 15 véhicules et une croissance annuelle à deux chiffres, l'équipe de planification commençait à toucher ses limites. Les heures supplémentaires s'accumulaient, et les erreurs de livraison devenaient fréquentes.</p>
+
+                        <p>Transports Dupont est une entreprise de livraison régionale basée en Loire-Atlantique. Avec
+                            15 véhicules et une croissance annuelle à deux chiffres, l'équipe de planification
+                            commençait à toucher ses limites. Les heures supplémentaires s'accumulaient, et les erreurs
+                            de livraison devenaient fréquentes.</p>
 
                         <h2 id="defi">Le chaos de la croissance</h2>
-                        <p>"Nous passions 3 heures chaque matin à répartir les colis manuellement," explique Marc Dupont, le gérant. "C'était un casse-tête permanent. Un chauffeur finissait à 14h, l'autre à 20h. Il n'y avait aucun équilibre."</p>
+                        <p>"Nous passions 3 heures chaque matin à répartir les colis manuellement," explique Marc
+                            Dupont, le gérant. "C'était un casse-tête permanent. Un chauffeur finissait à 14h, l'autre à
+                            20h. Il n'y avait aucun équilibre."</p>
 
                         <h2 id="solution">La transition vers GeopTime</h2>
-                        <p>L'entreprise a choisi GeopTime pour automatiser ce processus. L'objectif était double : réduire le temps de planification et équilibrer la charge de travail des chauffeurs.</p>
+                        <p>L'entreprise a choisi GeopTime pour automatiser ce processus. L'objectif était double :
+                            réduire le temps de planification et équilibrer la charge de travail des chauffeurs.</p>
                         <blockquote>
-                            "L'installation a pris une matinée. Le plus dur a été de convaincre les chauffeurs de changer leurs habitudes. Mais après une semaine, personne ne voulait revenir en arrière."
+                            "L'installation a pris une matinée. Le plus dur a été de convaincre les chauffeurs de
+                            changer leurs habitudes. Mais après une semaine, personne ne voulait revenir en arrière."
                         </blockquote>
 
                         <h2 id="resultats">Des résultats immédiats</h2>
@@ -123,12 +212,16 @@
                             <li><strong>-12% de kilomètres parcourus</strong>, une économie directe de carburant.</li>
                             <li><strong>Planification en 15 minutes</strong> au lieu de 3 heures.</li>
                         </ul>
-                        <p>Aujourd'hui, Transports Dupont envisage d'étendre son activité aux départements voisins, sereinement.</p>
+                        <p>Aujourd'hui, Transports Dupont envisage d'étendre son activité aux départements voisins,
+                            sereinement.</p>
 
-                        <div style="background-color: #fafafa; border: 1px solid #eee; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
+                        <div
+                            style="background-color: #fafafa; border: 1px solid #eee; border-radius: 16px; padding: 32px; margin: 40px 0; text-align: center;">
                             <h3 style="margin-top: 0; font-size: 22px;">Vous avez les mêmes défis ?</h3>
-                            <p style="font-size: 16px; margin-bottom: 20px;">Nos experts peuvent auditer votre organisation gratuitement.</p>
-                            <a href="contact.html" class="button w-button" style="border-radius: 999px;">Demander un audit</a>
+                            <p style="font-size: 16px; margin-bottom: 20px;">Nos experts peuvent auditer votre
+                                organisation gratuitement.</p>
+                            <a href="contact.html" class="button w-button" style="border-radius: 999px;">Demander un
+                                audit</a>
                         </div>
 
                     </div>
@@ -138,28 +231,38 @@
 
         <section class="section-6" style="background-color: #fafafa; padding-top: 80px; padding-bottom: 80px;">
             <div class="w-layout-blockcontainer container-8 w-container">
-                <h2 class="heading-20" style="text-align: left; margin-bottom: 40px; font-size: 32px;">À lire ensuite</h2>
+                <h2 class="heading-20" style="text-align: center; margin-bottom: 40px; font-size: 32px;">À lire ensuite
+                </h2>
                 <div class="w-layout-grid" style="grid-template-columns: 1fr 1fr; gap: 32px;">
-                    
-                    <div class="card-1" style="border: 1px solid rgba(0,0,0,0.05); border-radius: 16px; overflow: hidden; padding: 0; background: white;">
-                        <img src="https://cdn.prod.website-files.com/67a5fb8bc33c7f25ab4e52d9/67adb22b6801ba1be2c8816a_flowbank.jpg" style="width: 100%; height: 200px; object-fit: cover;" alt="Logistique">
+
+                    <div class="card-1"
+                        style="border: 1px solid rgba(0,0,0,0.05); border-radius: 16px; overflow: hidden; padding: 0; background: white;">
+                        <img src="https://cdn.prod.website-files.com/67a5fb8bc33c7f25ab4e52d9/67adb22b6801ba1be2c8816a_flowbank.jpg"
+                            style="width: 100%; height: 200px; object-fit: cover;" alt="Logistique">
                         <div style="padding: 24px;">
                             <div class="chips" style="margin-bottom: 10px;">
                                 <div class="link-block-2" style="font-size: 12px; padding: 4px 12px;">Logistique</div>
                             </div>
                             <h3 class="heading-7" style="font-size: 20px;">Réduire vos coûts de carburant de 15%</h3>
-                            <a href="article_carburant.html" class="button-primary-2" style="display: inline-block; margin-top: 15px; font-size: 14px; background: transparent; color: var(--Primary); padding: 0;">Lire l'article →</a>
+                            <a href="article_carburant.html" class="button-primary-2"
+                                style="display: inline-block; margin-top: 15px; font-size: 14px; background: transparent; color: var(--Primary); padding: 0;">Lire
+                                l'article →</a>
                         </div>
                     </div>
 
-                    <div class="card-1" style="border: 1px solid rgba(0,0,0,0.05); border-radius: 16px; overflow: hidden; padding: 0; background: white;">
-                        <img src="https://cdn.prod.website-files.com/67a5fb8bc33c7f25ab4e52d9/67adb22b8be398062d992b05_genome.jpg" style="width: 100%; height: 200px; object-fit: cover;" alt="Tech">
+                    <div class="card-1"
+                        style="border: 1px solid rgba(0,0,0,0.05); border-radius: 16px; overflow: hidden; padding: 0; background: white;">
+                        <img src="https://cdn.prod.website-files.com/67a5fb8bc33c7f25ab4e52d9/67adb22b8be398062d992b05_genome.jpg"
+                            style="width: 100%; height: 200px; object-fit: cover;" alt="Tech">
                         <div style="padding: 24px;">
                             <div class="chips" style="margin-bottom: 10px;">
                                 <div class="link-block-2" style="font-size: 12px; padding: 4px 12px;">Technologie</div>
                             </div>
-                            <h3 class="heading-7" style="font-size: 20px;">IA et Algorithmes : Le futur de la mobilité</h3>
-                            <a href="article_ia.html" class="button-primary-2" style="display: inline-block; margin-top: 15px; font-size: 14px; background: transparent; color: var(--Primary); padding: 0;">Lire l'article →</a>
+                            <h3 class="heading-7" style="font-size: 20px;">IA et Algorithmes : Le futur de la mobilité
+                            </h3>
+                            <a href="article_ia.html" class="button-primary-2"
+                                style="display: inline-block; margin-top: 15px; font-size: 14px; background: transparent; color: var(--Primary); padding: 0;">Lire
+                                l'article →</a>
                         </div>
                     </div>
 
@@ -167,16 +270,125 @@
             </div>
         </section>
 
+        <section class="home-solution-section">
+            <div class="w-layout-blockcontainer container-12 w-container">
+                <div class="c2a-main">
+                    <div class="c2a-wrapper">
+                        <h3 class="c2a-title">Optimisez vos trajets, Maximisez vos opportunités</h3>
+                        <p class="subtext">Ne laissez plus les kilomètres inutiles grignoter votre marge.<br>Rejoignez
+                            les professionnels qui ont choisi l'efficacité et simplifiez votre logistique dès
+                            aujourd'hui.</p>
+                        <a href="contact.html" class="back-to-home-btn w-inline-block">
+                            <div class="view-portfolio-txt">Collaborons ensemble</div>
+                            <div class="div-block-23">
+                                <img src="https://cdn.prod.website-files.com/67a5fb8bc33c7f25ab4e52d9/67a9e2599fa438b2b5ca91b6_arrow-top-right.png"
+                                    loading="lazy" alt="arrow-icon" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <footer class="footer">
             <div class="w-layout-blockcontainer container-14 w-container">
+                <div class="w-layout-hflex grid-19">
+                    <div class="footer-column-1">
+                        <div>
+                            <img src="assets/logo_h.svg" width="200px" height="auto" loading="lazy" alt="GeopTime" />
+                        </div>
+                        <div class="text-block-32">Nous aidons les professionnels itinérants à optimiser leurs plannings
+                            et à réduire leurs coûts de déplacement.</div>
+                        <div class="div-block-42">
+                            <a href="https://www.linkedin.com/company/geoptimee"
+                                class="footer-social-icon w-inline-block">
+                                <img src="https://cdn.prod.website-files.com/67a5fb8bc33c7f25ab4e52d9/67b02256c742c6b7cb28f718_si-linkedin.svg"
+                                    loading="lazy" alt="linkedin" />
+                            </a>
+                            <a href="https://www.instagram.com/geoptime/" class="footer-social-icon w-inline-block">
+                                <img src="https://cdn.prod.website-files.com/67a5fb8bc33c7f25ab4e52d9/67b02256f67a8cad36930a39_si-insta.svg"
+                                    loading="lazy" alt="instagram" />
+                            </a>
+                            <a href="https://x.com/geoptime" class="footer-social-icon w-inline-block">
+                                <img src="https://cdn.prod.website-files.com/67a5fb8bc33c7f25ab4e52d9/67b02255b31413b811c048ab_si-twitter.svg"
+                                    loading="lazy" alt="twitter" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="w-layout-hflex flex-block-2">
+                        <div class="footer-column-2">
+                            <div class="title">Navigations</div>
+                            <ul role="list" class="list-5 w-list-unstyled">
+                                <li class="list-item-9">
+                                    <a href="services.html" class="navigation-link for-footer w-inline-block">
+                                        <div class="nav-text">Services</div>
+                                    </a>
+                                </li>
+                                <li class="list-item-9">
+                                    <a href="blog.html" class="navigation-link for-footer w-inline-block">
+                                        <div class="nav-text">Blog</div>
+                                    </a>
+                                </li>
+                                <li class="list-item-9">
+                                    <a href="about.html" class="navigation-link for-footer w-inline-block">
+                                        <div class="nav-text">A propos</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-column-3">
+                            <div class="title">Légal</div>
+                            <ul role="list" class="list-5 w-list-unstyled">
+                                <li class="list-item-9">
+                                    <a href="terms.html" class="navigation-link for-footer w-inline-block">
+                                        <div class="nav-text">Vie Privée</div>
+                                    </a>
+                                </li>
+                                <li class="list-item-9">
+                                    <a href="legal.html" class="navigation-link for-footer w-inline-block">
+                                        <div class="nav-text">Mentions Légales</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-column-4">
+                            <div class="title">Nous contacter</div>
+                            <ul role="list" class="list-5 w-list-unstyled">
+                                <li class="list-item-9">
+                                    <a href="https://maps.google.com/?q=21+rue+de+la+Parcheminerie+49000+Angers"
+                                        target="_blank" class="navigation-link for-footer w-inline-block">
+                                        <div class="text-block-32">21 rue de la Parcheminerie<br>49000 Angers</div>
+                                    </a>
+                                </li>
+                                <li class="list-item-9">
+                                    <a href="mailto:aurelienfaz@gmail.com"
+                                        class="navigation-link for-footer w-inline-block">
+                                        <div class="nav-text">aurelienfaz@gmail.com</div>
+                                    </a>
+                                </li>
+                                <li class="list-item-9">
+                                    <a href="tel:0782271075" class="navigation-link for-footer w-inline-block">
+                                        <div class="nav-text">07 82 27 10 75</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <div class="div-block-43">
-                    <div class="text-block-33">©2026 GeopTime. Tous droits réservés.</div>
+                    <div class="w-layout-blockcontainer container-15 w-container">
+                        <div class="div-block-209">
+                            <div class="text-block-33">
+                                ©2026 GeopTime. Tous droits réservés.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
     </div>
     <script>
-        window.onscroll = function() {
+        window.onscroll = function () {
             var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
             var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             var scrolled = (winScroll / height) * 100;
@@ -184,4 +396,5 @@
         };
     </script>
 </body>
+
 </html>
